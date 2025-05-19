@@ -8,10 +8,10 @@ const PostCard = ({ post }) => {
         <div className="col-25">
             <div className="card">
                 <div className="card-title">
-                    {title}
+                    <h2>{title}</h2>
                 </div>
                 <div className="card-text">
-                    {content}
+                    <p>{content}</p>
                     <span className='category'>{category}</span>
                 </div>
             </div>

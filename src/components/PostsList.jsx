@@ -12,7 +12,6 @@ const PostsList = () => {
             {posts.map(post => (
                 <PostCard key={post.id} post={post} />
             ))}
-            <PostCard post={posts[0]} />
         </div>
     )
 }
