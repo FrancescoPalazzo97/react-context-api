@@ -52,3 +52,15 @@ h2 {
 .card-text p {
   margin-bottom: 10px;
 }
+
+.alert {
+  padding: 20px 10px;
+  border: none;
+  border-radius: 10px;
+  margin: 10px 20px;
+  text-transform: uppercase;
+}
+
+.alert-type-success {
+  background-color: rgba(3, 209, 3, 0.898);
+}
