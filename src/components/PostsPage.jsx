@@ -1,11 +1,12 @@
 import React from 'react'
-import { useContext } from 'react'
-import PostsContext from '../contexts/PostsContext'
+import PostsList from './PostsList'
 
 const PostsPage = () => {
     return (
         <main>
-
+            <div className="container">
+                <PostsList />
+            </div>
         </main>
     )
 }

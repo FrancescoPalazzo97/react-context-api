@@ -8,3 +8,22 @@ header {
   text-align: center;
   padding: 20px 0;
 }
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 30px;
+}
+
+.col-25 {
+  flex-basis: 25%;
+}
+
+.card {
+  margin: 0 20px;
+}
